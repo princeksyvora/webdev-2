@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment -1</title>
+    <link rel="stylesheet" href="tasks.css">
+</head>
+<body>
+    <script src="basic.js"></script>
+    <h1>My Task Tracker</h1>
+    <form onsubmit="addTask(event)" id="frm">
+      <label>Name : </label>
+      <input type="text" id="taskname" placeholder="Add new task"> <button type="submit" class="btn" >Add</button>
+    </form>
+    <br>
+    <button onclick="ListTask()" class="btn"> List Task </button>
+  <ul id="tasklist"></ul>
+
+</body>
+</html>

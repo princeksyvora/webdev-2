@@ -1,0 +1,13 @@
+form{
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+    width: fit-content; 
+}
+button{
+    background-color: rgb(218, 89, 89);
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
